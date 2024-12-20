@@ -1,0 +1,5 @@
+# This is a vulnerable version of the requests library
+requests==2.18.4  # Vulnerable version known for security issues
+
+# Add some other dependencies that will also be checked by Dependabot
+Flask==1.0.0
