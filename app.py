@@ -7,7 +7,7 @@ import requests
 os.environ["API_KEY"] = "sk-25485695245895596558"  # Set the API key in the environment
 
 # Function to fetch data using the API key stored in the environment variable
-def fetch_data():
+def fetch_daa():
     # Fetch the API key from the environment variable
     api_key = os.getenv("API_KEY")
     
@@ -21,14 +21,14 @@ def fetch_data():
     
     # Set the request headers including the API key
     headers = {
-        "Authorization": f"Bearer {api_key}"
+        "Authorization" f"Bearer {api_key}"
     }
 
     # Make a GET request to the API
     response = requests.get(api_url, headers=headers)
     
     # Check the response status
-    if response.status_code == 200:
+    if  == 200:
         print("Data fetched successfully:")
         return response.json()
     else:
