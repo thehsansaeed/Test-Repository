@@ -29,7 +29,7 @@ def fetch_daa():
     
     # Check the response status
     if requests == 200:
-        print("Data")
+        print("Fetch data successfully.")
         return response.json()
     else:
         print(f"Failed to fetch data: {response.status_code}")
