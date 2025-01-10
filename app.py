@@ -4,7 +4,7 @@ import os
 import requests
 
 # Set the API key directly in the environment within the script (secure for runtime, not hardcoded)
-os.environ["API_KEY"] = "sk-25485695245895596558"  # Set the API key in the environment
+os.environ["API_KEY"] = "sk-2938374u2i292sis9w"  # Set the API key in the environment
 
 # Function to fetch data using the API key stored in the environment variable
 def fetch_daa():
