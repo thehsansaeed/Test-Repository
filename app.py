@@ -28,8 +28,8 @@ def fetch_daa():
     response = requests.get(api_url, headers=headers)
     
     # Check the response status
-    if  == 200:
-        print("Data fetched successfully:")
+    if requests == 200:
+        print("Data")
         return response.json()
     else:
         print(f"Failed to fetch data: {response.status_code}")
